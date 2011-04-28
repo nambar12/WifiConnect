@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView android:text="@string/info_message" android:id="@+id/TextViewStatus" android:layout_height="wrap_content" android:singleLine="false" android:layout_width="wrap_content"></TextView>
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="match_parent" android:layout_height="wrap_content">
+	<TableRow>
+		<TextView android:text="Username:" android:id="@+id/TextEditUsernameTag" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:text="" android:id="@+id/EditTextUsername" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1" android:padding="2dip"></EditText>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Password:" android:id="@+id/TextEditPasswordTag" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:text="" android:id="@+id/EditTextPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:padding="2dip"></EditText>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Check every:" android:id="@+id/TextRecheckTag" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:text="" android:id="@+id/EditTextRecheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="2dip" android:numeric="integer" android:layout_weight="5"></EditText>
+		<TextView android:text="minutes (0 to disable)" android:id="@+id/TextRecheckMinutes" android:layout_width="fill_parent" android:layout_height="wrap_content"  android:layout_weight="1"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Network: " android:id="@+id/TextViewNetworkTag" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/TextViewNetwork" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+	<TableRow>
+		<Button android:text="Save" android:id="@+id/ButtonSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:padding="2dip"></Button>
+		<Button android:text="Close" android:id="@+id/ButtonClose" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:padding="2dip"></Button>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="" android:id="@+id/TextViewTerminateTag" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<Button android:text="Terminate" android:id="@+id/ButtonTerminate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:padding="2dip"></Button>
+	</TableRow>
+</TableLayout>
+<TextView android:text="@string/about_message" android:id="@+id/TextViewStatus" android:singleLine="false" android:layout_gravity="bottom" android:layout_height="match_parent" android:layout_width="match_parent" android:gravity="center|bottom"></TextView>
+</LinearLayout>

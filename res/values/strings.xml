@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WifiConnect!</string>
+    <string name="app_name">Intel WiFi Connect</string>
+<string name="TryConnect">Trying to connect</string>
+<string name="NOTIFICATION">NOTIFICATION</string>
+<string name="ON_GOING_NOTIFICATION">ON_GOING_NOTIFICATION</string><string name="service_desc">Auto-connect to Intel Wifi Guest network</string>
+<string name="service_label">Intel Wifi Connect</string>
+<string name="button_text_start">Start</string>
+<string name="button_text_stop">Stop</string>
+
+<string name="info_message">Intel WiFi Connect is designed to automatically detect connection to Intel’s guest network and login using guest account when needed. The login is performed when WiFi status is changed or periodically according to the defined time.</string>
+<string name="about_message">Written by Noam Ambar © 2011</string>
+</resources>
